@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Task1_ContactUsPage/static/css/main.438b7d91.css",
+    "main.js": "/Task1_ContactUsPage/static/js/main.2c693b49.js",
+    "static/js/787.709ead1f.chunk.js": "/Task1_ContactUsPage/static/js/787.709ead1f.chunk.js",
+    "static/media/Avenir Regular.ttf": "/Task1_ContactUsPage/static/media/Avenir Regular.b58b1b9c574d4cabb0ab.ttf",
+    "index.html": "/Task1_ContactUsPage/index.html",
+    "main.438b7d91.css.map": "/Task1_ContactUsPage/static/css/main.438b7d91.css.map",
+    "main.2c693b49.js.map": "/Task1_ContactUsPage/static/js/main.2c693b49.js.map",
+    "787.709ead1f.chunk.js.map": "/Task1_ContactUsPage/static/js/787.709ead1f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.438b7d91.css",
+    "static/js/main.2c693b49.js"
+  ]
+}
