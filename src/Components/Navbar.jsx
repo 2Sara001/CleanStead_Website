@@ -13,7 +13,7 @@ export default function Navbar() {
       <nav className="nav-items">
         <ul className="hidden md:flex md:items-center md:justify-around ">
           {navItems.map((item) => (
-            <ListItem text={item.text} key={item.id} className="mx-5 text-xl text-slate-800 font-medium transition duration-130 hover:ease-in hover:text-sky-400"></ListItem>
+            <ListItem text={item.text} key={item.id} classNameLink="mx-5 text-xl text-slate-800 font-medium transition duration-130 hover:ease-in hover:text-sky-400"></ListItem>
           ))}
         </ul>
       </nav>

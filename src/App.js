@@ -1,9 +1,7 @@
-import ContactUsPage from "./pages/ContactUsPage.jsx";
+import ContactUsPage from "./pages/ContactUsPage";
 function App() {
   return (
-    <div>
-      <ContactUsPage></ContactUsPage>
-    </div>
+    <ContactUsPage></ContactUsPage>
   );
 }
 

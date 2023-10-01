@@ -3,6 +3,7 @@ import Button from '../sharedComponents/Button';
 import OptionItem from '../sharedComponents/OptionItem';
 import InputField from '../sharedComponents/InputField';
 import mainImg from "../assets/images/mainImg.png";
+import greenLines from "../assets/images/greenLines.png";
 
 export default function ContactUs() {
     const options = [
@@ -18,38 +19,7 @@ export default function ContactUs() {
                     <section className="content w-full md:w-1/2 py-10 md:pl-5 md:ml-14 md:mt-5">
                         <div className="title flex items-center mb-10">
                             <h1 className="text-4xl	font-bold ml-3 ">تواصل معنا</h1>
-                            <svg
-                                xmlns="http://www.w3.org/2000/svg"
-                                width="21"
-                                height="36"
-                                viewBox="0 0 21 36"
-                                fill="none"
-                            >
-                                <path
-                                    d="M19.563 23.9984L8.95639 34.605"
-                                    stroke="#8FC930"
-                                    stroke-width="2"
-                                    stroke-linecap="round"
-                                />
-                                <line
-                                    x1="19.1488"
-                                    y1="10.9984"
-                                    x2="9.95639"
-                                    y2="1.80596"
-                                    stroke="#8FC930"
-                                    stroke-width="2"
-                                    stroke-linecap="round"
-                                />
-                                <line
-                                    x1="1.56299"
-                                    y1="17.9984"
-                                    x2="14.563"
-                                    y2="17.9984"
-                                    stroke="#8FC930"
-                                    stroke-width="2"
-                                    stroke-linecap="round"
-                                />
-                            </svg>
+                            <img src={greenLines} alt="Title Lines" />
                         </div>
                         <form>
                             <div className="service my-4">
